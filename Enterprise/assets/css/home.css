@@ -157,6 +157,8 @@ letter-spacing: -0.48px;
 
   .div_card {
     padding: 48px 56px;
+    display: flex;
+    justify-content: center;
   }
   .card_info {
     display: flex;
