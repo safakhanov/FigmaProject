@@ -1,55 +1,103 @@
-
-
-@media screen and (max-width:900px){
-    .nav_bar{
-        display: none;
+@media screen and (max-width: 1300px) {
+    .carusel_title {
+      font-size: 30px;
+      line-height: 50px;
     }
-    .ham_button{
-        display: block;
+    .nav_list {
+      gap: 10px;
     }
-    .info{
-        flex-direction: column-reverse;
-        gap: 28px;
-    }
-
-    .corusel,
-    .info_img{
-        width: 100%;
-       
-
-    }
-
-    .corusel{
-        align-items: center;
-        text-align: center;
-    }
-
-    .ham_button{
-        display: block;
-    }
-    
-    
-}
-
-
-@media screen and (max-width:1200px){
+  }
   
-    .nav_list{
-        gap: 20px;
+  @media screen and (max-width: 1000px) {
+    .info_image {
+      width: 100%;
     }
-
-    .corusel_title{
-        /* color: var(--textBlack); */
-        font-size: 50px;
-        /* font-weight: 700; */
-        line-height: 40px;
+    .carusel {
+      width: 100%;
+      align-items: center;
+      text-align: center;
     }
-    
-    .corusel_desc{
-    font-size: 18px;
-    line-height: 30px;
-    /* letter-spacing: -0.48px; */
+    .info {
+      flex-direction: column-reverse;
     }
-    
-    
-}
+    .nav_list {
+      display: none;
+    }
+    .carusel_desc {
+      font-size: 18px;
+    }
+  
+    .title_mid {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .ham_button{
+      display: block;
+    }
+    .card_info {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+  
+    .propos_feature {
+      padding-top: 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .feature_info {
+      width: 100%;
+      align-items: center;
+    }
+    .feature_title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .logo_title {
+      display: none;
+    }
+    .feature_title {
+      font: size 24px;
+      text-align: center;
+    }
+    .title_card {
+      padding: 10px 0;
+    }
+    .feature_info {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .paragraf_desc {
+      width: 100%;
+    }
+    .cards_intro {
+      width: 100%;
+    }
+    .members_widget {
+      width: 100%;
+    }
+    .proposal_widget {
+      position: relative;
+      width: 100%;
+    }
+    .prop_button {
+      position: absolute;
+      width: 100%;
+      bottom: 8px;
+      left: 0;
+    }
+    .feature_desc {
+      width: 100%;
+    }
+  }
