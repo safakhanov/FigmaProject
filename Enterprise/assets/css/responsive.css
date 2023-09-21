@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
     .carusel_title {
       font-size: 30px;
       line-height: 50px;
@@ -8,8 +8,8 @@
     }
   }
   
-  @media screen and (max-width: 1000px) {
-    .info_image {
+  @media screen and (max-width: 900px) {
+    .info_image{
       width: 100%;
     }
     .carusel {
@@ -27,7 +27,7 @@
       font-size: 18px;
     }
   
-    .title_mid {
+    .title {
       font-size: 30px;
       line-height: 30px;
     }
@@ -61,23 +61,22 @@
     }
   }
   
-  @media screen and (max-width: 700px) {
-    .logo_title {
-      display: none;
-    }
-    .feature_title {
-      font: size 24px;
-      text-align: center;
-    }
-    .title_card {
-      padding: 10px 0;
-    }
-    .feature_info {
-      text-align: center;
-    }
-  }
-  
+
   @media screen and (max-width: 600px) {
+    .logo_title {
+        display: none;
+      }
+      .feature_title {
+        font: size 24px;
+        text-align: center;
+      }
+      .title_card {
+        padding: 10px 0;
+      }
+      .feature_info {
+        text-align: center;
+      }
+      
     .paragraf_desc {
       width: 100%;
     }
